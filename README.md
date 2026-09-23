@@ -1,21 +1,37 @@
-University Portal Clone:
+# University Portal Clone
 
-This University Portal Clone web application simulates a real university portal system. It allows students to manage their academic details such as courses, grades, timetables, and more, providing an easy-to-use interface similar to a real university portal.
+A front-end clone of a university student portal (modelled on COMSATS University Islamabad), built with HTML, CSS and JavaScript.
 
-Features:
-▶️ Student Login/Signup: Students can securely log in and sign up.
-▶️ Dashboard: A personal dashboard to view academic details and updates.
-▶️ Course Enrollment: Students can view and enroll in available courses.
-▶️ Grade Overview: A section where students can see their grades and academic performance.
-▶️ Timetable View: Students can view their class schedules.
-▶️ Notifications: Displays important announcements and updates.
-▶️ Profile Management: Students can update their personal and academic information.
-▶️ Responsive Design: Mobile-friendly layout for easy access on any device.
+## Pages
 
-Technologies Used:
+| Page | Description |
+|---|---|
+| `Login.html` | Student login page |
+| `HomePage.html` | Portal home with side menu links to portal sections |
+| `Dashboard.html` | Student dashboard with profile summary |
+| `Timetable.html` | Weekly class timetable |
+| `Result.html` | Semester-wise results (Semesters 1–4) |
+| `Assignment.html` | Assignment upload form |
+| `Calculator.html` | Weighted grade calculator |
+| `Calculator2.html` | Combined theory and lab grade calculator |
+| `Frame.html`, `Frame2.html` | Framed layout of the portal |
+| `Test.html` | Responsive hamburger menu |
 
-Frontend:
-▶️ HTML5
-▶️ CSS3 (for styling)
-▶️ JavaScript (for interactivity)
-▶️ Bootstrap (for responsive design) 
+## Features
+
+- Portal-style navigation and layout
+- Interactive grade calculators written in JavaScript
+- Timetable and results views
+- Font Awesome icons
+
+## Running Locally
+
+No build step is needed. Clone the repository and open `Login.html` or `HomePage.html` in a browser.
+
+## Tech Stack
+
+HTML5 · CSS3 · JavaScript · Font Awesome
+
+---
+
+*This is an educational project and is not an official university system.*
